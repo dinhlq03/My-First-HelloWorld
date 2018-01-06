@@ -11,6 +11,8 @@ public class Main {
         System.out.println(calculateMethod(a, b));
 
         System.out.println(subMethod(a, b));
+
+        System.out.println(doubleMethod(a));
     }
 
     private static String showTheMessage(String message) {
@@ -23,5 +25,9 @@ public class Main {
 
     private static int subMethod(int a, int b) {
         return a + 10 - b;
+    }
+
+    private static int doubleMethod(int a) {
+        return a * 10 * a;
     }
 }
