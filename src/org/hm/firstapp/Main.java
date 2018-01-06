@@ -9,6 +9,8 @@ public class Main {
 
         int a = 20, b = 54;
         System.out.println(calculateMethod(a, b));
+
+        System.out.println(subMethod(a, b));
     }
 
     private static String showTheMessage(String message) {
@@ -17,5 +19,9 @@ public class Main {
 
     private static int calculateMethod(int a, int b) {
         return a + b + 10;
+    }
+
+    private static int subMethod(int a, int b) {
+        return a + 10 - b;
     }
 }
