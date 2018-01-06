@@ -13,6 +13,8 @@ public class Main {
         System.out.println(subMethod(a, b));
 
         System.out.println(doubleMethod(a));
+
+        System.out.println(divideMethod(a, b));
     }
 
     private static String showTheMessage(String message) {
@@ -29,5 +31,9 @@ public class Main {
 
     private static int doubleMethod(int a) {
         return a * 10 * a;
+    }
+
+    private static double divideMethod(double a, double b) {
+        return  a/b;
     }
 }
