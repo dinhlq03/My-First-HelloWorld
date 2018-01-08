@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(divideMethod(a, b));
 
-        giveMeAMessage();
+        giveMeAMeg();
     }
 
     private static String showTheMessage(String message) {
@@ -39,7 +39,7 @@ public class Main {
         return  a/b;
     }
 
-    private static void giveMeAMessage() {
+    private static void giveMeAMeg() {
         System.out.println("Hi, Say hello to world!");
     }
 }
