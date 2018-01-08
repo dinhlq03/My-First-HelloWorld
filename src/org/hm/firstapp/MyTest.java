@@ -33,8 +33,13 @@ public class MyTest {
         System.out.println("");
 
         String[] block4Transactions = {"Dinh buy 100 bitcoins", "Hai buy 10 bitcoins"};
-        Block block4 = new Block(block2.getBlockHash(), block4Transactions);
-        System.out.println(block3.getBlockHash());
+        Block block4 = new Block(block3.getBlockHash(), block4Transactions);
+        System.out.println(block4.getBlockHash());
+        System.out.println("");
+
+        String[] block5Transactions = {"Dinh buy 1006 bitcoins", "Hai buy 100 bitcoins"};
+        Block block5 = new Block(block4.getBlockHash(), block5Transactions);
+        System.out.println(block5.getBlockHash());
         System.out.println("");
     }
 }
