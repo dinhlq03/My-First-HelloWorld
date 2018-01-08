@@ -31,5 +31,10 @@ public class MyTest {
         System.out.println(block3.getBlockHash());
 
         System.out.println("");
+
+        String[] block4Transactions = {"Dinh buy 100 bitcoins", "Hai buy 10 bitcoins"};
+        Block block4 = new Block(block2.getBlockHash(), block4Transactions);
+        System.out.println(block3.getBlockHash());
+        System.out.println("");
     }
 }
