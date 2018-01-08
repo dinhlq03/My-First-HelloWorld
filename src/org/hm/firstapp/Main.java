@@ -15,6 +15,8 @@ public class Main {
         System.out.println(doubleMethod(a));
 
         System.out.println(divideMethod(a, b));
+
+        giveMeAMessage();
     }
 
     private static String showTheMessage(String message) {
@@ -35,5 +37,9 @@ public class Main {
 
     private static double divideMethod(double a, double b) {
         return  a/b;
+    }
+
+    private static void giveMeAMessage() {
+        System.out.println("Hi, Say hello to world!");
     }
 }
